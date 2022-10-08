@@ -12,7 +12,7 @@
     }
 
 /* Style rule for images */
-    img {
+    #img {
       max-width: 100%;
       display: block;
     }
@@ -41,15 +41,18 @@
     nav {
     background-color: #373684;
     }
+    
     nav ul {
     list-style-type: none;
     text-align: center;
     }
+    
     nav li {
-    display: block;
     border-top: 1px solid #e5e9fc;
     font-size: 2em;
+    display: block;
     }
+    
     nav li a {
     display: block;
     color: #fff;
@@ -71,53 +74,71 @@
     
     }
     
-    .bolded { font-weight: bold; }
+    .bolded { 
+        font-weight: bold; 
+    }
 
     main p {
     font-size: 1.25em;
     }
+    
     .action {
     font-size: 1.25em;
     color: #373684;
     font-weight: bold;
     }
-    #piano, #guitar, #violin {
+   
+    #piano, #guitar, #violin{
         margin: 2%;
         }
+        
         #info {
         clear: left;
         background-color: #c0caf7;
         padding: 1% 2%;
         }
+        
         #info ul{
             margin-left: 10%;
         }
+        
         .round{
             border-radius: 8px;
         }
+        
         #contact {
         text-align: center;
+        
         }
+        
         #contact .email-link {
         color: #4645a8;
         text-decoration: none;
         font-weight: bold;
         }
+        
         .tel-link {
-            background-color: #373684; padding: 2%;
+            color: white;
+            background-color: #373684; 
+            padding: 2%;
             margin: 0 auto;
             width: 80%;
-            text-align: center; border-radius: 5px;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
             }
             .tel-link a {
-            color: #fff; text-decoration: none; font-size: 1.5em; display: block;
+            color: #fff; 
+            text-decoration: none; 
+            font-size: 1.5em; 
+            display: block;
             }
-            
         .map {
             width: 95%;
             height: 50%;
-            border: 5px solid #373684;
-        }
+            border: 20px solid #373684;
+             }
+       
 
 
 
