@@ -139,13 +139,6 @@
              }
        
 
-
-
-
-
-
-
-
 /* Style rules for footer content */
     footer {
     text-align: center;
@@ -156,3 +149,48 @@
     color: #4645a8;
     text-decoration: none;
     }    
+
+/* Media Query for Tablet Viewport*/
+@media screen and (min-width: 550px), print{
+
+    /* Tablet Viewport: Show tab-desk class, hide mobile class */
+    .tab-desk{
+        display: block;
+    }
+    .mobile{
+        display:none;
+    }
+/* Tablet Viewport: Style rule for header content */
+span.tab-desk{
+    display:inline;
+}
+/* Tablet Viewpoint:Style rules for nav area*/
+nav li{
+    border-top:none;
+    display:inline-block;
+    font-size: 1.5em;
+    border-right: 1px solid #e5e9fc 
+}
+nav li a:pseudo-cass {
+border-right: none;
+}
+nav li a{
+    padding-top:0.25em;
+    padding-bottom:0.25em;
+    padding-left:0.5em;
+    padding-right:0.5em;
+}
+/* Tablet Viewport: Style rule for map */ 
+.map{
+    width:500px;
+    height:450px;
+}
+}
+/* Media Query for Desktop Viewport*/
+@media screen and (min-width: 769px), print{
+    /* Desktop Viewport: Style rule for header*/
+    span.tab-desk{
+        padding:2%;
+    }
+}
+
