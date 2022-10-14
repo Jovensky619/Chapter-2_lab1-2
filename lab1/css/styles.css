@@ -171,7 +171,7 @@ nav li{
     font-size: 1.5em;
     border-right: 1px solid #e5e9fc 
 }
-nav li a:pseudo-cass {
+nav li:last-childs {
 border-right: none;
 }
 nav li a{
