@@ -161,25 +161,26 @@
         display:none;
     }
 /* Tablet Viewport: Style rule for header content */
-span.tab-desk{
-    display:inline;
+    span.tab-desk{
+    display: inline;
 }
 /* Tablet Viewpoint:Style rules for nav area*/
 nav li{
-    border-top:none;
-    display:inline-block;
+    border-top: none;
+    display: inline-block;
     font-size: 1.5em;
     border-right: 1px solid #e5e9fc 
 }
-nav li:last-childs {
-border-right: none;
+nav li:last-child {
+    border-right: none;
 }
 nav li a{
-    padding-top:0.25em;
-    padding-bottom:0.25em;
-    padding-left:0.5em;
-    padding-right:0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left:1.5em;
+    padding-right:1.5em;
 }
+
 /* Tablet Viewport: Style rule for map */ 
 .map{
     width:500px;
@@ -192,6 +193,18 @@ nav li a{
     span.tab-desk{
         padding:2%;
     }
+ /* Desktop Viewport: Style rules for nav area*/
+     nav li a{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left:1.5em;
+        padding-right:1.5em;
+    }
+    nav li a:hover{
+        color:#373684;
+        background-color: #e5e9fc;
+    }
+
     /* Desktop Viewport: Style rules for main content */
     #info ul{
         margin-left: 5%;
