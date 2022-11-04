@@ -5,7 +5,7 @@
  */
 
   /* CSS Reset */
-  body, header, nav, main, footer, img, ul, h1,section, aside, figure,figcaption {
+  body, header, nav, main, footer, img, ul, h1,section, aside, figure,figcaption{
     margin: 0;
     padding: 0;
     border: 0;
@@ -197,10 +197,10 @@
         }
 
 /*Style rules for form elements*/ 
-fieldset,input{
+.fieldset,input{
 	margin-bottom: 2%;
  }
- fieldset legend{
+ .fieldset legend{
 	font-size: 1.25em;
 	font-weight: bold;
  }
@@ -209,7 +209,7 @@ fieldset,input{
     padding-top: 3%;
  }
 
- #submit{
+  #submit{
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: auto;
@@ -217,7 +217,7 @@ fieldset,input{
 	display:block; 
 	padding: 3%;
 	background-color: #b7b7e1;
-	font-size: 1.em;
+	font-size: 1em;
  }
 
 /* Style rules for footer content */
@@ -334,6 +334,19 @@ aside{
     .rental{
         width:70%;
     }
+    /* Desktop Viewport: Style rules for form elements*/
+    form{
+        width: auto;
+    }
+    .form-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap:20px;
+    }
+    .btn{
+        grid-column: 1 / span 2
+    }
+    
 }
 /* Media Query for Print */
 @media print{
