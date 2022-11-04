@@ -119,6 +119,21 @@
     color: #373684;
     font-weight: bold;
     }
+
+    /*Tablet Viewport: Style rule for form element*/
+form{
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
    
     #piano, #guitar, #violin,#rental h2{
         margin: 2%;
@@ -268,20 +283,7 @@ nav li a{
     height:450px;
 }
 
-/*Tablet Viewport: Style rule for form element*/
-form{
-    width: 70%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.grid{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 20px;
-}
 aside{
     grid-column: 1 / span 2;
 }

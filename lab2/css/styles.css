@@ -6,7 +6,7 @@
 
  
   /* CSS Reset */
-  body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption,table, td, th {
+  body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption{
     margin: 0;
     padding: 0;
     border: 0;
@@ -326,5 +326,17 @@ th,td{
 tr:nth-child(odd){
   background-color: #deccba;
 }
+/* Desktop Viewport: Style rules for form elements*/
+form{
+  width: auto;
+}
+.form-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap:20px;
+}
+.btn{
+  grid-column: 1 / span 2
+} 
 }
       
