@@ -55,6 +55,28 @@
         font-weight: bold
     }
 
+    .mobile-nav a {
+        color: #fff;
+        text-align: center; 
+        font-size: 2em;
+        text-decoration: none;
+        padding: 3%;
+        display: block;
+        }
+
+    .mobile-nav a.menu-icon {
+        display: block;
+         position: absolute;
+         right: 0;
+         top: 0;
+         }  
+
+
+    .menu-icon div {
+        height: 50px;
+        width: 50px;
+        background-color: #373684;
+         }
 
 
 /* Style rules for header content */
@@ -67,6 +89,9 @@
     header h1 {
     
         font-family: 'DM Serif Display', serif;
+        font-size: 1.5em;
+        padding: 4%;
+        margin-right: 15%;
     }
 
 /* Style rules for navigation area */
@@ -74,24 +99,9 @@
     background-color: #373684;
     }
     
-    nav ul {
-    list-style-type: none;
-    text-align: center;
-    }
-    
-    nav li {
-    border-top: 1px solid #e5e9fc;
-    font-size: 2em;
-    display: block;
-    }
-    
-    nav li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    }    
+#menu-links{
+    display: none;
+}  
 
  /* Style rules for main content */
     main {
@@ -237,11 +247,23 @@
     .mobile{
         display:none;
     }
+    .mobile-nav{
+        display: none;
+    }
 /* Tablet Viewport: Style rule for header content */
     span.tab-desk{
     display: inline;
 }
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
 /* Tablet Viewpoint:Style rules for nav area*/
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    }
 nav li{
     border-top: none;
     display: inline-block;
@@ -256,6 +278,10 @@ nav li a{
     padding-bottom: 0.5em;
     padding-left:1.5em;
     padding-right:1.5em;
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* Tablet Viewport: Style rule for map */ 
@@ -289,6 +315,7 @@ aside{
     span.tab-desk{
         padding:2%;
     }
+    
  /* Desktop Viewport: Style rules for nav area*/
      nav li a{
         padding-top: 0.5em;
@@ -299,6 +326,7 @@ aside{
     nav li a:hover{
         color:#373684;
         background-color: #e5e9fc;
+        transform: scale(1.2);
     }
 
     /* Desktop Viewport: Style rules for main content */
