@@ -18,7 +18,22 @@
     <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
 </head>
 <body>
-  <div id="wrapper">  
+  <div id="wrapper"> 
+    
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <div id="nav-links">
+            <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                    <a href="partnership.html">Partnership</a> <a href="gallery.html">Gallery</a>
+                        <a href="faqs.html">FAQs</a>
+                            <a href="contact.html">Contact Us</a>
+        </div>
+        <a class="nav-icon" onclick="hamburger()">
+            <div id="icon">&#9776;</div> 
+        </a>
+</nav>
+
     <header>
         <div id="tab-desk">
         <div id="mobile">
@@ -34,7 +49,7 @@
    
    
    
-    <nav>
+    <nav class="tab-desk">
         <ul>
             <li><a href="index.html">Home</a></li> 
             <li><a href="about.html">About Us</a></li>  
